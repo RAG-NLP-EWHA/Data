@@ -4,8 +4,8 @@ hotpotqa distractor train + validation context -> corpus -> parquet로 저장
 -원본 데이터 개수: 973367
 -중복 제거 후 개수: 509315
 '''
-CORPUS_PATH = "/mnt/aix23604/hotpotqa/corpus_distractor.parquet"
-ds_path = "/mnt/aix23604/hotpotqa/distractor"
+CORPUS_PATH = "/aix23604/hotpotqa/corpus_distractor.parquet"
+ds_path = "/aix23604/hotpotqa/distractor"
 
 import pandas as pd
 from utils import load_datasets
